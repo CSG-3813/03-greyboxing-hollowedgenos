@@ -1433,6 +1433,55 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1 &464921591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 464921592}
+  - component: {fileID: 464921593}
+  m_Layer: 0
+  m_Name: Houses
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464921592
+Transform:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464921591}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1240669880}
+  - {fileID: 725142206}
+  - {fileID: 796682806}
+  - {fileID: 1829238722}
+  m_Father: {fileID: 1945608227}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464921593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464921591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149818d5acbed4455af27721dc46461a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _colorIndex: 0
 --- !u!43 &499965329
 Mesh:
   m_ObjectHideFlags: 0
@@ -2403,7 +2452,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1945608227}
+    m_TransformParent: {fileID: 464921592}
     m_Modifications:
     - target: {fileID: 105090, guid: 3789d65be84741545afcfb9b91749198, type: 3}
       propertyPath: m_Name
@@ -2620,7 +2669,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1945608227}
+    m_TransformParent: {fileID: 464921592}
     m_Modifications:
     - target: {fileID: 132052, guid: b4da227c9b849fe42ae5257c25064f33, type: 3}
       propertyPath: m_Name
@@ -3291,6 +3340,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 713668655}
     m_Modifications:
+    - target: {fileID: 554430055435672094, guid: ce58d5ee1f90632459ff90d8ca000c19,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d5e273f1a29189d4dac429c293fd4379, type: 2}
     - target: {fileID: 5984450824995090342, guid: ce58d5ee1f90632459ff90d8ca000c19,
         type: 3}
       propertyPath: m_Name
@@ -5084,7 +5138,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1945608227}
+    m_TransformParent: {fileID: 464921592}
     m_Modifications:
     - target: {fileID: 193714, guid: 53a1fad510b98f74c96763872cbd652f, type: 3}
       propertyPath: m_Name
@@ -5092,7 +5146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 422222, guid: 53a1fad510b98f74c96763872cbd652f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5000001
+      value: 1.5000002
       objectReference: {fileID: 0}
     - target: {fileID: 422222, guid: 53a1fad510b98f74c96763872cbd652f, type: 3}
       propertyPath: m_LocalScale.y
@@ -6859,7 +6913,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1945608227}
+    m_TransformParent: {fileID: 464921592}
     m_Modifications:
     - target: {fileID: 100000, guid: 9feeda4812d3aaf48a1fd5631099cbdf, type: 3}
       propertyPath: m_Name
@@ -7426,10 +7480,7 @@ Transform:
   - {fileID: 1875902686}
   - {fileID: 79730990}
   - {fileID: 713668655}
-  - {fileID: 1240669880}
-  - {fileID: 725142206}
-  - {fileID: 796682806}
-  - {fileID: 1829238722}
+  - {fileID: 464921592}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &2015325310
